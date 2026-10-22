@@ -1,0 +1,154 @@
+
+/* page specific */
+.content-logo-link1 {
+	cursor:pointer;
+	width:91px;
+	height:20px;
+	margin:3px 0px 0px 312px;
+}
+
+.content-logo-link2 {
+	cursor:pointer;
+	width:136px;
+	height:20px;
+	margin:3px 0px 0px 0px;
+}
+
+.content-logo-link1:hover, .content-logo-link2:hover {
+	text-decoration: underline;
+	color: #2C2C61
+}
+
+.content-logo-link3 {
+	cursor:pointer;
+	width:141px;
+	height:20px;
+	margin:3px 0px 0px 0px;
+}
+
+.left-menu-11-link {
+	width:171px;
+	height:62px;
+	margin:0px 0px 0px 0px;
+	background-repeat:no-repeat;
+}
+
+.left-menu-11-link0 {
+	background-image:url(assignment_requirements_fr_normal.jpg);
+}
+.left-menu-11-link0:hover {
+	background-image:url(assignment_requirements_fr_over.jpg);
+}
+.left-menu-11-link0-s {
+	background-image:url(assignment_requirements_fr_current.jpg);
+}
+.left-menu-11-link1 {
+	background-image:url(assignment_purpose_fr_normal.jpg);
+}
+.left-menu-11-link1:hover {
+	background-image:url(assignment_purpose_fr_over.jpg);
+}
+.left-menu-11-link1-s {
+	background-image:url(assignment_purpose_fr_current.jpg);
+}
+.left-menu-11-link2 {
+	background-image:url(type_written_assignments_fr_normal.jpg);
+}
+.left-menu-11-link2:hover {
+	background-image:url(type_written_assignments_fr_over.jpg);
+}
+.left-menu-11-link2-s {
+	background-image:url(type_written_assignments_fr_current.jpg);
+}
+.left-menu-11-link3 {
+	background-image:url(disciplinary_approaches_fr_normal.jpg);
+}
+.left-menu-11-link3:hover {
+	background-image:url(disciplinary_approaches_fr_over.jpg);
+}
+.left-menu-11-link3-s {
+	background-image:url(disciplinary_approaches_fr_current.jpg);
+}
+.left-menu-11-link4 {
+	background-image:url(audience_fr_normal.jpg);
+}
+.left-menu-11-link4:hover {
+	background-image:url(audience_fr_over.jpg);
+}
+.left-menu-11-link4-s {
+	background-image:url(audience_fr_current.jpg);
+}
+
+.box-link-1 {
+	background-image:url(assignment_details_fr.png);
+	width:171px;
+	height:64px;
+	margin:10px 0px 10px 40px;
+}
+.box-link-2 {
+	background-image:url(research_fr.png);
+	width:171px;
+	height:64px;
+	margin:10px 0px 10px 40px;
+}
+.box-link-3 {
+	background-image:url(evaluation_fr.png);
+	width:171px;
+	height:64px;
+	margin:10px 0px 10px 40px;
+}
+
+.content-logo {
+	background-image:url(spark_logo_no_breadcrumb_fr.png);
+	background-size: cover;
+	width:771px;
+	height:130px;
+	margin: 0px 0px 0px 8px;
+}
+.resrouces-link1 {
+	background-image:url(resources_understangin_assignment_checlist_fr_normal.jpg);
+	width: 160px;
+	height:70px;
+}
+.resrouces-link1:hover {
+	background-image:url(resources_understangin_assignment_checlist_fr_over.jpg);
+}
+
+ul.breadcrumb {
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0 100px 0 0;
+	text-align: right;
+	font-size: 80%;
+	color: silver;
+}
+
+ul.breadcrumb > li {
+	margin-top: 100px;
+}
+
+ul.breadcrumb > li > i.divider {
+	padding: 0 0 0 10px;
+	color: #cf0000;
+}
+
+ul.breadcrumb > li > a {
+	color: silver;
+	display: inline-block;
+}
+
+ul.breadcrumb > li > a:hover {
+	color: navy;
+}
+
+ul.breadcrumb > li.active {
+	color: #cf0000;
+	cursor: default;
+}
+
+.breadcrumb > li + li:before {
+	padding: 0 !important;
+	content: "" !important;
+}

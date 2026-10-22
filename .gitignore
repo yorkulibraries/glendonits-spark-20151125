@@ -1,0 +1,9 @@
+/nbproject/private/
+.DS_Store
+node_modules/
+vendor/
+dist/
+.env
+temp.php
+resources/*
+!resources/.gitkeep

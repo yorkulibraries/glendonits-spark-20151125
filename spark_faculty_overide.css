@@ -1,0 +1,161 @@
+.resource-box,
+.menu-course-container,
+.menu-course-fr-container,
+.menu-course-pulling-it-together-en-container,
+.menu-course-pulling-it-together-fr-container,
+.menu-course-exploring-container,
+.menu-course-exploring-fr-container,
+.menu-course-faculty-container,
+.menu-course-faculty-fr-container,
+div.accordion{
+	background: transparent -moz-linear-gradient(center top , rgb(37, 37, 68), rgb(52, 52, 98)) repeat scroll 0% 0%;
+	background: -webkit-linear-gradient(top, #252544, #343462);
+	background: -moz-linear-gradient(top, #252544, #343462);
+	background: -ms-linear-gradient(top, #252544, #343462);
+	background: -o-linear-gradient(top, #252544, #343462);
+	padding: 0 0 5px 0;
+}
+
+div.resource-box ul {
+    padding-left: 30px;
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+.new-left-menu > div > ul.nav-menu > li > ul.sub-menu,
+.new-left-menu > div > ul.nav-menu > li > ul.sub-menu > li.menu-item > ul.sub-menu{
+    display: block;
+    padding: 0;
+    margin: 0;
+    color: #666;
+    font-weight: bold!important;
+}
+
+.new-left-menu > div > ul.nav-menu > li > ul.sub-menu > li.menu-item > ul.sub-menu{
+    margin-left: -30px!important;
+    width: 180px;
+}
+
+.new-left-menu > div > ul.nav-menu > li > ul.sub-menu > li.menu-item,
+.new-left-menu > div > ul.nav-menu > li > ul.sub-menu > li.menu-item > ul.sub-menu > li.menu-item {
+    list-style-type: decimal;
+    list-style-position: inside;
+    text-indent: -15px;
+    padding: 7px 5px 12px 30px;
+    margin: 0;
+    font-weight: bold;
+}
+.new-left-menu > div > ul.nav-menu > li > ul.sub-menu > li.menu-item > ul.sub-menu > li.menu-item{
+    list-style-type: disc;
+    font-size: 1.50em !important;
+    padding: 7px 3px 8px 35px;
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);
+}
+
+.new-left-menu > div > ul.nav-menu > li > ul.sub-menu > li.menu-item > ul.sub-menu > li.menu-item > a{
+    margin-left: -15px;
+}
+
+@-moz-document url-prefix() {
+    .new-left-menu > div > ul.nav-menu > li > ul.sub-menu > li.menu-item > ul.sub-menu > li.menu-item > a{
+        margin-left: 0;
+    }
+}
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) 
+{ @media {
+    .new-left-menu > div > ul.nav-menu > li > ul.sub-menu > li.menu-item > ul.sub-menu > li.menu-item > a{
+        margin-left: 0;
+    }
+}}
+
+.new-left-menu > div > ul.nav-menu > li > ul.sub-menu > li.menu-item-has-children{
+    margin-top: 12px!important;
+}
+
+.new-left-menu > div > ul.nav-menu > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu{
+    margin-top: 6px!important;
+}
+
+.new-left-menu > div > ul.nav-menu > li > ul.sub-menu > li.current_page_item{
+    color: #333566 !important;
+}
+
+.menu-nav-section-head a {
+    color: #252544 !important;
+}*/
+
+
+
+
+
+
+
+div.accordion {
+	background: transparent -moz-linear-gradient(center top , rgb(150, 1, 1), rgb(200, 3, 3)) repeat scroll 0% 0%;
+	background: -webkit-linear-gradient(top,#252544, #343462);
+	background: -moz-linear-gradient(top, #252544, #343462);
+	background: -ms-linear-gradient(top, #252544, #343462);
+	background: -o-linear-gradient(top, #252544, #343462);
+	border: 1px solid #252544;
+}
+.accordion-title:hover {
+    background-color: #252544;
+}
+
+.content-bottom-navbar {
+	background-image: url(img/blue/lower_nav_bg.jpg);
+}
+
+.content-bottom-back-button-x, .content-bottom-back-button {
+	background-image: url(img/blue/back_normal.png);
+	width: 80px;
+}
+.content-bottom-back-button-x {
+	background-image: url(img/blue/back_inactive.png);
+}
+.content-bottom-next-button {
+	background-image: url(img/blue/next_normal.jpg);
+}
+
+.content-bottom-progress {
+	background-image: url(img/blue/progress_bar_90.jpg);
+}
+
+.fr.content-bottom-back-button-x, .fr.content-bottom-back-button {
+	background-image: url(img/blue/fr/back_normal.png);
+}
+.fr.content-bottom-back-button-x {
+	background-image: url(img/blue/fr/back_inactive.png);
+}
+.fr.content-bottom-next-button {
+	background-image: url(img/blue/fr/next_normal.png);
+}
+.fr.content-bottom-home-button {
+	background-image: url(img/blue/fr/home_normal.png);
+}
+
+.content-bottom-progress-line {
+	background-color: #484977 !important;
+	background-image: none;
+}
+
+.resource-box li, .resource-box a {
+	float: none;
+}
+
+.resource-box li {
+	margin: 20px 0 20px 0;
+}

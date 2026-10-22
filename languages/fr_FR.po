@@ -1,0 +1,476 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Glendon 2015\n"
+"POT-Creation-Date: 2015-04-22 11:04-0500\n"
+"PO-Revision-Date: 2015-04-22 11:06-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: footer.php:3 header.php:222
+msgid "Site search url"
+msgstr "http://www.glendon.yorku.ca/fr/rechercher/"
+
+#: footer.php:6 header.php:225
+msgid "Search Glendon"
+msgstr "Rechercher Glendon"
+
+#: footer.php:17
+msgid "Glendon footer url"
+msgstr "http://www.glendon.yorku.ca/fr/"
+
+#: footer.php:17
+msgid "Glendon"
+msgstr "Glendon"
+
+#: footer.php:18
+msgid "Yorku footer url"
+msgstr "http://yorku.ca"
+
+#: footer.php:18
+msgid "York University"
+msgstr "Université York"
+
+#: footer.php:19
+msgid "Contact Glendon url"
+msgstr "http://www.glendon.yorku.ca/contacteznous/"
+
+#: footer.php:19
+msgid "Contact Glendon"
+msgstr "Contactez Glendon "
+
+#: footer.php:20
+msgid "Website comment url"
+msgstr "http://www.glendon.yorku.ca/fr/vos-commentaires/"
+
+#: footer.php:20
+msgid "Website comment"
+msgstr "Vos commentaires "
+
+#: functions.php:85
+msgid "Theme Options"
+msgstr ""
+
+#: functions.php:97
+msgid "Hide Post Dates?"
+msgstr ""
+
+#: functions.php:103
+msgid "Social Media Options"
+msgstr ""
+
+#: functions.php:108 functions.php:116
+msgid "Facebook URL"
+msgstr ""
+
+#: functions.php:124 functions.php:132
+msgid "Twitter URL"
+msgstr ""
+
+#: functions.php:140 functions.php:149
+msgid "YouTube URL"
+msgstr ""
+
+#: functions.php:157 functions.php:165
+msgid "Flickr URL"
+msgstr ""
+
+#: functions.php:182
+msgid "Vimeo URL"
+msgstr ""
+
+#: functions.php:198
+msgid "LinkedIn URL"
+msgstr ""
+
+#: functions.php:206 functions.php:214
+msgid "RSS URL"
+msgstr ""
+
+#: functions.php:231
+msgid "Show Yfile Link"
+msgstr ""
+
+#: functions.php:240 functions.php:248
+msgid "Instagram URL"
+msgstr ""
+
+#: functions.php:256 functions.php:264
+msgid "Tumblr URL"
+msgstr ""
+
+#: functions.php:273
+msgid "Site Link"
+msgstr ""
+
+#: functions.php:284
+msgid "Use Featured Images on Posts?"
+msgstr ""
+
+#: functions.php:294
+msgid "Use Breadcrumbs?"
+msgstr ""
+
+#: functions.php:303
+msgid "HTML"
+msgstr ""
+
+#: functions.php:323
+msgid "Right Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:325
+msgid ""
+"Appears on posts and pages in the sidebar. Widgets flow to below content on "
+"smaller screens."
+msgstr ""
+
+#: functions.php:332
+msgid "Footer column 1"
+msgstr ""
+
+#: functions.php:334
+msgid "Optional widget area for first column in footer"
+msgstr ""
+
+#: functions.php:341
+msgid "Footer column 2"
+msgstr ""
+
+#: functions.php:343
+msgid "Optional widget area for second column in footer"
+msgstr ""
+
+#: functions.php:350
+msgid "Alternate right side bar"
+msgstr ""
+
+#: functions.php:352
+msgid "Alternate side bar for deferent widgets than the default side bar"
+msgstr ""
+
+#: functions.php:359
+msgid "Homepage sidebar"
+msgstr ""
+
+#: functions.php:361
+msgid "This sidebar will only work with the homepage template"
+msgstr ""
+
+#: functions.php:368
+msgid "Tab-1"
+msgstr ""
+
+#: functions.php:370 functions.php:379 functions.php:388
+msgid "This will only work with the homepage template"
+msgstr ""
+
+#: functions.php:377
+msgid "Tab-2"
+msgstr ""
+
+#: functions.php:386
+msgid "Tab-3"
+msgstr ""
+
+#: header.php:95 header.php:98
+msgid "About us"
+msgstr "À propos de Glendon"
+
+#: header.php:98
+msgid "About us url"
+msgstr "http://www.glendon.yorku.ca/about/fr/"
+
+#: header.php:101
+msgid "Principals message url"
+msgstr "http://www.glendon.yorku.ca/about/fr/message-du-principal/"
+
+#: header.php:101
+msgid "Principals Message"
+msgstr "Message du principal"
+
+#: header.php:104
+msgid "Research url"
+msgstr "http://www.glendon.yorku.ca/recherche/"
+
+#: header.php:104
+msgid "Research"
+msgstr "Recherche"
+
+#: header.php:107
+msgid "Our professors url"
+msgstr "http://www.glendon.yorku.ca/professeurs/"
+
+#: header.php:107
+msgid "Our Professors"
+msgstr "Nos professeurs"
+
+#: header.php:110
+msgid "Centre of Excellence url"
+msgstr "http://www.glendon.yorku.ca/about/fr/centre-d-excellence/"
+
+#: header.php:110
+msgid "Centre of Excellence"
+msgstr "Centre d’excellence"
+
+#: header.php:113 header.php:203
+msgid "Careers url"
+msgstr "http://about.yorku.ca/careers/"
+
+#: header.php:113 header.php:203
+msgid "Careers"
+msgstr "Carrières"
+
+#: header.php:116 header.php:162 header.php:206
+msgid "Directory url"
+msgstr "http://www.yorku.ca/yorkatlas"
+
+#: header.php:116 header.php:162 header.php:206
+msgid "Directory"
+msgstr "Annuaire"
+
+#: header.php:121
+msgid "Students"
+msgstr "Étudiants"
+
+#: header.php:124
+msgid "Programs of Study url"
+msgstr ""
+"http://www.glendon.yorku.ca/futurestudents/fr/programmes/premier-cycle/"
+
+#: header.php:124
+msgid "Programs of Study"
+msgstr "Programmes d’études"
+
+#: header.php:127
+msgid "Undergraduate Admissions url"
+msgstr "http://www.glendon.yorku.ca/futurestudents/fr/admission/conditions/"
+
+#: header.php:127
+msgid "Undergraduate Admissions"
+msgstr "Admission au premier cycle"
+
+#: header.php:130
+msgid "Graduate Admissions url"
+msgstr ""
+"http://www.glendon.yorku.ca/futurestudents/fr/programmes/etudes-superieures/"
+
+#: header.php:130
+msgid "Graduate Admissions"
+msgstr "Admission aux études supérieures"
+
+#: header.php:133
+msgid "Extended Learning url"
+msgstr "http://www.glendon.yorku.ca/formationcontinue/"
+
+#: header.php:133
+msgid "Extended Learning"
+msgstr "Formation continue"
+
+#: header.php:136
+msgid "Visit Us url"
+msgstr ""
+"http://www.glendon.yorku.ca/futurestudents/fr/contacts-et-visites/visites-"
+"guidees-et-evenements/"
+
+#: header.php:136
+msgid "Visit Us"
+msgstr "Visites du campus"
+
+#: header.php:139
+msgid "Libraries url"
+msgstr "http://www.library.yorku.ca/web/"
+
+#: header.php:139
+msgid "Libraries"
+msgstr "Bibliothèques"
+
+#: header.php:142
+msgid "Campus Life url"
+msgstr ""
+"http://www.glendon.yorku.ca/futurestudents/fr/communaute/notre-campus-"
+"unique/"
+
+#: header.php:142
+msgid "Campus Life"
+msgstr "Vie étudiante"
+
+#: header.php:147
+msgid "Faculty and staff"
+msgstr "Professeurs et personnel"
+
+#: header.php:150
+msgid "Home url"
+msgstr "http://www.glendon.yorku.ca/facultystaff/fr/"
+
+#: header.php:150
+msgid "Home"
+msgstr "Accueil"
+
+#: header.php:153
+msgid "Yu Link url"
+msgstr "https://yulink.yorku.ca/"
+
+#: header.php:153
+msgid "Yu Link"
+msgstr "Yu Link"
+
+#: header.php:156
+msgid "Webmail url"
+msgstr "https://mail.glendon.yorku.ca/"
+
+#: header.php:156
+msgid "Webmail"
+msgstr "Courriel"
+
+#: header.php:159 header.php:185
+msgid "Maps & Directions url"
+msgstr "http://www.glendon.yorku.ca/directionsroutieres/"
+
+#: header.php:159 header.php:185
+msgid "Maps & Directions"
+msgstr "Plan du campus et directions routières"
+
+#: header.php:167
+msgid "Visitors"
+msgstr "Visiteurs"
+
+#: header.php:170
+msgid "Counsellors & Teachers url"
+msgstr ""
+"http://www.glendon.yorku.ca/futurestudents/fr/contacts-et-visites/"
+"enseignants/"
+
+#: header.php:170
+msgid "Counsellors & Teachers"
+msgstr "Enseignants et orienteurs"
+
+#: header.php:173
+msgid "Media url"
+msgstr "http://news.yorku.ca/"
+
+#: header.php:173
+msgid "Media"
+msgstr "Médias"
+
+#: header.php:176
+msgid "Giving to Glendon url"
+msgstr "http://www.glendon.yorku.ca/dons/"
+
+#: header.php:176
+msgid "Giving to Glendon"
+msgstr "Dons"
+
+#: header.php:179
+msgid "Accessibility url"
+msgstr "http://accessibilityhub.info.yorku.ca/"
+
+#: header.php:179
+msgid "Accessibility"
+msgstr "Accessibilité"
+
+#: header.php:182
+msgid "Weather Status url"
+msgstr "http://site.info.yorku.ca/weather-status/"
+
+#: header.php:182
+msgid "Weather Status"
+msgstr "Conditions météo"
+
+#: header.php:188
+msgid "Parking & Transportation url"
+msgstr "http://www.yorku.ca/parking/"
+
+#: header.php:188
+msgid "Parking & Transportation"
+msgstr "Stationnement et transport"
+
+#: header.php:191
+msgid "Facilities Rentals url"
+msgstr "http://www.glendon.yorku.ca/installations/"
+
+#: header.php:191
+msgid "Facilities Rentals"
+msgstr "Location des installations"
+
+#: header.php:194
+msgid "Athletics Club url"
+msgstr "http://www.glendon.yorku.ca/gac/"
+
+#: header.php:194
+msgid "Athletics Club"
+msgstr "Club Athlétique de Glendon"
+
+#: header.php:197
+msgid "Art Gallery url"
+msgstr "http://www.glendon.yorku.ca/gallery/fr/"
+
+#: header.php:197
+msgid "Art Gallery"
+msgstr "Galerie Glendon"
+
+#: header.php:200
+msgid "Theatre Glendon url"
+msgstr "http://www.glendon.yorku.ca/theatre/fr/"
+
+#: header.php:200
+msgid "Theatre Glendon"
+msgstr "Théâtre Glendon"
+
+#: header.php:219
+msgid "Quick links"
+msgstr "Liens rapides"
+
+#: header.php:220
+msgid "Language button"
+msgstr "English"
+
+#: header.php:233 includes/nav-bar-default.php:31
+#: includes/nav-bar-homepage.php:24
+msgid "Alumni and visitors url"
+msgstr "http://www.glendon.yorku.ca/diplomes/"
+
+#: header.php:233 includes/nav-bar-default.php:31
+#: includes/nav-bar-homepage.php:24
+msgid "Alumni and visitors"
+msgstr "Diplômés et visiteurs"
+
+#: header.php:234 includes/nav-bar-default.php:30
+#: includes/nav-bar-homepage.php:23
+msgid "Current students url"
+msgstr "http://www.glendon.yorku.ca/etudiantsactuels/"
+
+#: header.php:234 includes/nav-bar-default.php:30
+#: includes/nav-bar-homepage.php:23
+msgid "Current students"
+msgstr "Étudiants"
+
+#: header.php:235 includes/nav-bar-default.php:29
+#: includes/nav-bar-homepage.php:22
+msgid "Future students url"
+msgstr "http://www.glendon.yorku.ca/futurestudents/fr/"
+
+#: header.php:235 includes/nav-bar-default.php:29
+#: includes/nav-bar-homepage.php:22
+msgid "Future students"
+msgstr "Futurs étudiants"
+
+#: includes/nav-bar-homepage.php:65
+msgid "Featured"
+msgstr "Actualités"
+
+#: includes/nav-bar-homepage.php:66
+msgid "Events"
+msgstr "Événements"

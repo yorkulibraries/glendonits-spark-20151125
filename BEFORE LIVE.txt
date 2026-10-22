@@ -1,0 +1,14 @@
+search "icl_" and double back all the commented code.  This was worked around to avoid the plug-in.
+
+Pages modified for SPARK
+wp-congif.php	modified to allow for multisite (required for some Glendon template functions)
+index.php		added SPARK interface (home screen)
+header.php		added SPARK dependencies, scripts, styles
+				temporary comment on google analytics
+				
+Added "Advanced Custom Fields" plug-in to WordPress
+Changed global upload limit to "180000"
+Added functions to the functions.php file line 708 onward
+
+Created header-spark.php - removes the glendon header
+Created footer-spark.php - removes the glendon footer
