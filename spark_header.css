@@ -745,7 +745,7 @@ ul.sm ul li, ul.sm-vertical li {
     color: #ffffff;
 }
 
-a:active, a:hover, a:focus, span.menu-toggle:focus, button:focus {
+a:active, a:hover {
     outline: 0;
 }
 
@@ -764,7 +764,6 @@ ul.menu a, .navigation a, .nav-menu .sub-menu li.menu-item a {
 @media screen and (max-width: 867px){
     .sm-blue ul a {
         background: transparent !important;
-    .sm-blue ul a {
         border-left: 8px solid transparent;
     }
 }

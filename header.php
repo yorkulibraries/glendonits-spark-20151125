@@ -61,7 +61,7 @@ $title = $blog->blogname;
         <!-- SPARK -->
        	<link rel="stylesheet" href="<?php echo $wwwroot; ?>/dialog.css" type="text/css">
 		<link rel="stylesheet" href="<?php echo $wwwroot; ?>/spark_content.css" type="text/css">
-		<script type="text/javascript" src="<?php echo $wwwroot; ?>/spark_gui.js"></script>
+		<script type="text/javascript" src="<?php echo esc_url($wwwroot . '/spark_gui.js?ver=' . filemtime(get_template_directory() . '/spark_gui.js')); ?>"></script>
 		<!-- END SPARK -->
         <script>
             $ = jQuery;
@@ -70,7 +70,7 @@ $title = $blog->blogname;
 
                 init_glendon();
 
-                if (!$('span.menu-toggle').is(":visible")) {
+                if (!$('.menu-toggle').is(":visible")) {
                     $(".nav-menu li > a.has-submenu").hover(function() {
                         $(this).addClass("highlighted").siblings("ul.sub-menu").addClass("submenu-open");
                     }, function() {
@@ -87,13 +87,14 @@ $title = $blog->blogname;
                         $("ul.sub-menu").removeClass("submenu-open").parent().find("ul.sub-menu").removeClass("highlighted");
                     });
                 } else {
-                    $('span.menu-toggle').click(function() {
+                    $('.menu-toggle').attr('aria-expanded', $('.menu-main-menu-container').is(':visible') ? 'true' : 'false').click(function() {
                         $('ul.sub-menu').hide();
                         $('span.sub-arrow').show();
                         $('.menu-main-menu-container').toggle();
-                        $('span.menu-toggle > i').removeClass('fa-caret-up').addClass('fa-caret-down');
+                        $(this).attr('aria-expanded', $('.menu-main-menu-container').is(':visible') ? 'true' : 'false');
+                        $('.menu-toggle > i').removeClass('fa-caret-up').addClass('fa-caret-down');
                         if($('.menu-main-menu-container').is(":visible")) {
-                            $('span.menu-toggle > i').removeClass('fa-caret-down').addClass('fa-caret-up');
+                            $('.menu-toggle > i').removeClass('fa-caret-down').addClass('fa-caret-up');
                         }
                     });
 
@@ -132,7 +133,7 @@ $title = $blog->blogname;
             ga('create', 'UA-45307416-1', 'yorku.ca');
             ga('send', 'pageview');
         </script>-->
-        <link rel="stylesheet" href="<?php echo $wwwroot; ?>/spark_header.css" type="text/css">
+        <link rel="stylesheet" href="<?php echo esc_url($wwwroot . '/spark_header.css?ver=' . filemtime(get_template_directory() . '/spark_header.css')); ?>" type="text/css">
     </head>
     <body <?php body_class(); ?> >
         
@@ -355,8 +356,8 @@ $title = $blog->blogname;
 
             <div id="navbar" class="navbar">
                 <nav id="site-navigation" class="navigation main-navigation horizontal-menu toggled-on" role="navigation">
-                    <span class="menu-toggle" tabindex="0">Menu <i class="fa fa-caret-down"></i></span>
-                    <div class="menu-main-menu-container">
+                    <button type="button" class="menu-toggle" aria-controls="york-main-menu" aria-expanded="false">Menu <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                    <div id="york-main-menu" class="menu-main-menu-container">
                         <ul id="yu-smartmenu" class="sm sm-blue nav-menu row">
                             <li id="menu-item-195" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-195">
                                 <a href="http://futurestudents.yorku.ca/programsearch" target="_blank">Programs of Study</a>

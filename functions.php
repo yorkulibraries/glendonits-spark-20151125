@@ -117,6 +117,10 @@ function glendon_scripts_styles() {
     
     wp_register_style('styles', get_template_directory_uri() . '/style.css', ('style'), true, 'all');
     wp_enqueue_style('styles');
+
+    // Shared by the homepage and both language versions of every module.
+    wp_enqueue_style('spark-accessibility', get_template_directory_uri() . '/spark_accessibility.css', array('styles'), filemtime(get_template_directory() . '/spark_accessibility.css'));
+    wp_enqueue_script('spark-accessibility', get_template_directory_uri() . '/spark_accessibility.js', array(), filemtime(get_template_directory() . '/spark_accessibility.js'), true);
     
 //    wp_register_style('font-awesome', get_template_directory_uri() . '/css/font-awesome.css', ('font-awesome'), true, 'all');
 //    wp_enqueue_style('font-awesome');

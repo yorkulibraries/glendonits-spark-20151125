@@ -163,7 +163,7 @@ foreach ($course_modules as $key => $module) {
                     <?php if ($current_module_id > 0) { ?>
                     <div class="content-bottom-progress-container">
                         <?php
-                        $pCC = get_field("percent_completed");
+                        $pCC = (int) get_field("percent_completed");
                         $pCCValue = 568 - (568 * ($pCC / 100));
                         ?>
                         <div class="content-bottom-progress" style="background-position: <?php if ($pCCValue > 0) {
@@ -186,27 +186,7 @@ foreach ($course_modules as $key => $module) {
                         </div>
                         <div class="content-bottom-progress-line"></div>
                     </div>
-                    <div class="content-bottom-navigation-page-controls">
-                        <?php
-
-                        $nPg = get_field("next_page");
-                        $pPg = get_field("previous_page");
-
-                        if ($pPg == "") {
-                            echo '<div class="fr content-bottom-back-button-x"></div>';
-                        } else {
-                            echo '<a href="' . $pPg . '" class="fr content-bottom-back-button" title="Suivant"></a>';
-                        }
-                        if ($nPg == "") {
-                            echo '<a href="?page_id=2" class="fr content-bottom-home-button"></a>';
-                        } else {
-                            echo '<a href="' . $nPg . '" class="fr content-bottom-next-button" title="Prochaine"></a>';
-                        }
-
-                        ?>
-
-
-                    </div>
+                    <?php get_template_part('includes/module-page-navigation'); ?>
                     <?php } ?>
                 </div>
             </div>
@@ -351,27 +331,7 @@ foreach ($course_modules as $key => $module) {
                         </div>
                         <div class="content-bottom-progress-line"></div>
                     </div>
-                    <div class="content-bottom-navigation-page-controls">
-                        <?php
-
-                        $nPg = get_field("next_page");
-                        $pPg = get_field("previous_page");
-
-                        if ($pPg == "") {
-                            echo '<div class="content-bottom-back-button-x"></div>';
-                        } else {
-                            echo '<a href="' . $pPg . '" class="content-bottom-back-button" title="Previous"></a>';
-                        }
-                        if ($nPg == "") {
-                            echo '<a href="?page_id=2" class="content-bottom-home-button"></a>';
-                        } else {
-                            echo '<a href="' . $nPg . '" class="content-bottom-next-button" title="Next"></a>';
-                        }
-
-                        ?>
-
-
-                    </div>
+                    <?php get_template_part('includes/module-page-navigation'); ?>
 
                     <?php } ?>
                 </div>

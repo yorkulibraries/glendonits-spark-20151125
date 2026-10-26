@@ -88,9 +88,27 @@ jQuery(document).ready(function (e) {
   });
 
 
-  jQuery('.new-homepage-menu li.menu-item-has-children > a').click(function () {
-    jQuery('.sub-menu').css('display', 'none');
+  var moduleLinks = jQuery('.new-homepage-menu li.menu-item-has-children > a');
+  moduleLinks.each(function (index) {
+    var panel = jQuery(this).next('.sub-menu');
+    var panelId = panel.attr('id') || 'spark-module-list-' + index;
+    panel.attr('id', panelId);
+    jQuery(this).attr({ 'aria-controls': panelId, 'aria-expanded': panel.is(':visible') ? 'true' : 'false' });
+  }).click(function (event) {
+    event.preventDefault();
+    moduleLinks.attr('aria-expanded', 'false').next('.sub-menu').hide();
     jQuery(this).next().css('display', 'table-row');
+    jQuery(this).attr('aria-expanded', 'true');
+  });
+  jQuery('.new-homepage-menu').on('keydown', function (event) {
+    if (event.key === 'Escape') {
+      var openLink = moduleLinks.filter('[aria-expanded="true"]');
+      if (openLink.length) {
+        openLink.attr('aria-expanded', 'false').next('.sub-menu').hide();
+        openLink[0].focus();
+        event.preventDefault();
+      }
+    }
   });
 });
 

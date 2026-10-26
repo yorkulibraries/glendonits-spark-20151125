@@ -1,0 +1,84 @@
+/* Reserve space only while the fixed CookieYes notice is visible. */
+html {
+    scroll-padding-bottom: calc(var(--spark-consent-space, 0px) + 12px);
+}
+
+body {
+    padding-bottom: var(--spark-consent-space, 0px);
+}
+
+/* Keep a visible focus indicator even where legacy theme/plugin styles reset it.
+   The white inner ring and black outer ring work on both red and white surfaces. */
+body a[href]:focus,
+body button:focus,
+body input:focus,
+body select:focus,
+body textarea:focus,
+body [tabindex]:focus,
+body [role="button"]:focus {
+    outline: 2px solid #111 !important;
+    outline-offset: 2px !important;
+    box-shadow: 0 0 0 2px #fff !important;
+}
+
+/* The mobile disclosure uses a native button with Enter and Space support. */
+button.menu-toggle {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    font: inherit;
+    cursor: pointer;
+}
+
+/* Real text remains usable with images disabled, zoom, or forced colours. */
+.content-bottom-navigation-page-controls a,
+.content-bottom-navigation-page-controls .content-bottom-back-button-x {
+    box-sizing: border-box;
+    width: 81px;
+    min-height: 57px;
+    height: auto;
+    float: left;
+    background-image: none;
+}
+
+.content-bottom-navigation-page-controls a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border: 1px solid #888;
+    background-color: #fff;
+    color: #333;
+    font: bold 13px/1.4 Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content-bottom-navigation-page-controls a span {
+    font-size: 22px;
+    line-height: 1;
+}
+
+.content-bottom-navigation-page-controls a:hover {
+    background-color: #eee;
+    color: #111;
+    text-decoration: underline;
+}
+
+@media (forced-colors: active) {
+    .content-bottom-navigation-page-controls a {
+        border-color: LinkText;
+        color: LinkText;
+    }
+
+    body a[href]:focus,
+    body button:focus,
+    body input:focus,
+    body select:focus,
+    body textarea:focus,
+    body [tabindex]:focus,
+    body [role="button"]:focus {
+        outline-color: Highlight !important;
+    }
+}
